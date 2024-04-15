@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS album;
 CREATE TABLE expenses (
     id SERIAL PRIMARY KEY,
     description VARCHAR,
